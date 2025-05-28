@@ -25,6 +25,7 @@
 
 - [📚 Contents](#-contents)
 - [🔥News](#news)
+- [📜Dataset](#dataset)
 - [🔍Key Insights and Method](#key-insights-and-method)
   - [Key Insights](#key-insights)
   - [Method](#method)
@@ -40,6 +41,27 @@
 * **[Coming Soon]**  More details on motivation and ablation studies.
 * **[2025.05.28]**  Training code together with model and dataset released.
 * **[2025.05.27]**  The paper is available on [arXiv](https://arxiv.org/abs/2505.21375).
+
+
+# 📜Dataset
+
+We introduce two ultra-high-resolution (UHR) vision-language datasets for GeoLLaVA-8K:
+
+- **SuperRS-VQA** (avg. 8,376×8,378) and **HighRS-VQA** (avg. 2,000×1,912), the highest-resolution RS VQA datasets to date.
+
+- A total of **81,367** UHR image–text pairs (SuperRS-VQA + HighRS-VQA) are used for supervised fine-tuning of GeoLLaVA-8K.
+
+- **Construction pipeline**:  
+  1. **Manual annotation** of 12K UHR samples by experts and crowd-workers.  
+  2. **Semi-automated generation** of 100K medium-to-high-resolution (2K×2K) pairs using GPT-4o, followed by an influence-based selection via the LESS framework.  
+  3. **Deduplication** against existing RS datasets to minimize overlap.  
+  
+- **Data Selection Pipeline for MHR Data**
+
+  To improve the relevance of our medium-to-high-resolution (MHR, 2K×2K) samples to UHR downstream tasks and **ensure its cultivation of reasoning capabilities** for models fine-tuned on it, we adopt an influence-based data selection pipeline.
+  
+  <img src="assets/data-selection.jpg" alt="image" style="zoom:40%;" />
+  
 
 # 🔍Key Insights and Method
 
@@ -65,11 +87,13 @@
    Ablating object tokens (26.5) causes a **34.9%** drop in generative VQA and **24.8%** drop in discriminative VQA, whereas randomly removing the same number of tokens yields only **6.7%** and **1.1%** decreases—demonstrating that essential information is indeed localized in small target-aligned tokens.
    
    <img src="./assets/q3.jpg" alt="image" style="zoom:40%;" />
+
 ## Method
 
 **Background Token Pruning and Anchored Token Selection**
 
 <img src="assets/method.jpg" alt="image" style="zoom:30%;" />
+
 
 # 🚀Finetuning and Evaluation
 
@@ -89,7 +113,7 @@ cd longva && uv pip install -e . --no-deps
 
 ## Finetuning
 
-Please first download the dataset from huggingface. Then
+Please first download the dataset from [huggingface](https://huggingface.co/initiacms/GeoLLaVA-8K). Then
 
 ```bash
 cd longva
