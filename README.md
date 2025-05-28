@@ -1,20 +1,39 @@
-<p align="center">
-  <h2 align="center"><strong>GeoLLaVA-8K: Scaling Remote-Sensing Multimodal Large Language Models to 8K Resolution</strong></h2>
 <div align="center">
-<h5>
-<em>Fengxiang Wang<sup>1</sup>, Mingshuo Chen<sup>2</sup>, Yueying Li<sup>1</sup>, Di Wang<sup>4,5</sup>, Haotian Wang<sup>1</sup>,<br/> Zonghao Guo<sup>3</sup>, Zefan Wang<sup>3</sup>, Boqi Shan<sup>6</sup>, Long Lan<sup>1</sup>, Yuilin Wang<sup>3 †</sup>, <br/> Hongzhen Wang<sup>3 †</sup>, Wenjing Yang<sup>1 †</sup>, Bo Du<sup>4</sup>, Jing Zhang<sup>4 †</sup> </em>
-	<br/>
-   	<sup>1</sup> National University of Defense Technology, China <br/> <sup>2</sup> Beijing University of Posts and Telecommunications, China <br/> <sup>3</sup> Tsinghua University, China, <sup>4</sup> Wuhan University, China <br/> <sup>5</sup> Zhongguancun Academy, China, <sup>6</sup> Beihang University, China 
-</h5>
-<p align="center">
-    📃 <a href="https://arxiv.org/abs/2505.21375" target="_blank">Paper</a> | 🤗 <a href="https://huggingface.co/initiacms/GeoLLaVA-8K" target="_blank">Model</a> | 🤗 <a href="https://huggingface.co/datasets/initiacms/GeoLLaVA-Data" target="_blank">Dataset</a>  </p>
+  <h2><strong>GeoLLaVA-8K: Scaling Remote-Sensing Multimodal Large Language Models to 8K Resolution</strong></h2>
+  <h5>
+    <em>
+      Fengxiang Wang<sup>1</sup>, Mingshuo Chen<sup>2</sup>, Yueying Li<sup>1</sup>, Di Wang<sup>4,5</sup>, Haotian Wang<sup>1</sup>, <br/>
+      Zonghao Guo<sup>3</sup>, Zefan Wang<sup>3</sup>, Boqi Shan<sup>6</sup>, Long Lan<sup>1</sup>, Yuilin Wang<sup>3&nbsp;†</sup>, <br/>
+      Hongzhen Wang<sup>3&nbsp;†</sup>, Wenjing Yang<sup>1&nbsp;†</sup>, Bo Du<sup>4</sup>, Jing Zhang<sup>4&nbsp;†</sup>
+    </em>
+    <br/><br/>
+    <sup>1</sup> National University of Defense Technology, China<br/>
+    <sup>2</sup> Beijing University of Posts and Telecommunications, China<br/>
+    <sup>3</sup> Tsinghua University, China, <sup>4</sup> Wuhan University, China<br/>
+    <sup>5</sup> Zhongguancun Academy, China, <sup>6</sup> Beihang University, China
+  </h5>
+  <p>
+    📃 <a href="https://arxiv.org/abs/2505.21375" target="_blank">Paper</a> |
+    🤗 <a href="https://huggingface.co/initiacms/GeoLLaVA-8K" target="_blank">Model</a> |
+    🤗 <a href="https://huggingface.co/datasets/initiacms/GeoLLaVA-Data" target="_blank">Dataset</a>
+  </p>
+</div>
+
+
+
 # 📚 Contents
 
-- [News](#news)
-- [Key Insights and Method](#key-insights-and-method)
-- [Finetuning and Evalulation](#finetuning-and-evaluation)
-- [Citation](#citation)
-- [Acknowledgement](#acknowledgement)
+- [📚 Contents](#-contents)
+- [🔥News](#news)
+- [🔍Key Insights and Method](#key-insights-and-method)
+  - [Key Insights](#key-insights)
+  - [Method](#method)
+- [🚀Finetuning and Evaluation](#finetuning-and-evaluation)
+  - [Installation](#installation)
+  - [Finetuning](#finetuning)
+  - [Evaluation](#evaluation)
+- [🔗Citation](#citation)
+- [🤝Acknowledgement](#acknowledgement)
 
 # 🔥News
 
