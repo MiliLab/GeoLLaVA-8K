@@ -122,7 +122,7 @@ bash scripts/ft3.sh
 
 ## Evaluation
 
-For evaluation, please use [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval?tab=readme-ov-file):
+For evaluation, please use [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval?tab=readme-ov-file) and refer the [XLRS-Bench-lite](https://github.com/AI9Stars/XLRS-Bench):
 
 ```bash
 CKPT_PATH=initiacms/GeoLLaVA-8K # or local path
