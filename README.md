@@ -115,7 +115,7 @@ cd longva && uv pip install -e . --no-deps
 
 ## Finetuning
 
-Please first download the dataset from [huggingface](https://huggingface.co/initiacms/GeoLLaVA-8K). Then
+Please first download the dataset from [huggingface](https://huggingface.co/collections/initiacms/geollava-8k-6836a1a482b1c892c5c8dad5). Then
 
 ```bash
 cd longva
