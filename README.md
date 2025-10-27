@@ -38,8 +38,8 @@
 
 # 🔥News
 
-* **[2025.09.19]**:Selected as **Spotlight** by NeurlPS 2025!
-* **[2025.09.19]**: **GeoLLaVA-8k has been accepted by NeurlPS 2025.**
+* **[2025.09.19]**  Selected as **Spotlight** by NeurlPS 2025!
+* **[2025.09.19]**  **GeoLLaVA-8k has been accepted by NeurlPS 2025.**
 * **[Coming Soon]**  More details on motivation and ablation studies.
 * **[2025.05.28]**  Training code together with model and dataset released.
 * **[2025.05.27]**  The paper is available on [arXiv](https://arxiv.org/abs/2505.21375).
